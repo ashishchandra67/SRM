@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="./css/result.css">
+</head>
+
+
+<body background="./project_Image/modern-school-building-10981274.jpg">
+    <nav>
+        <div class="logo">
+            <img src="/project_Image/logo.jpeg" alt="sexy ">
+        </div>
+        <h1>Student Results
+            <button id="printbtn" class="btn btn-print" onclick="window.print()"> print Result</button>
+        </h1>
+      
+    </nav>
+
+    <div class="students">
+        <ul>
+           
+            <div class="right">   Name:
+                <select id="selct" onchange="select()">
+                    <option value=" "></option>
+                    <option>James</option>
+                    <option>Emily</option>
+                    <option>Michael</option>
+                    <option>Olivia</option>
+                    <option>Aiden</option>
+                    <option>Isabella</option>
+                    <option>Mason</option>
+                    <option>Sophia</option>
+                    <option>Ethan</option>
+                    <option>Chloe</option>
+                </select>
+            <div class="right" id="adm_no" class="value"> Admission Number: </div>
+            <div class="right" id="fat_name" class="value">Father's Name </div>
+            <div class="right" id="mot_name" class="value">Mother's Name </div>
+        </ul>
+    </div>
+
+    <div class="Subjects">
+        <table>
+            <tr>
+                <th>English Marks out of 100 </th>
+                <td id="eng" class="value"></td>
+            </tr>
+            <tr>
+                <th>Hindi Marks out of 100 </th>
+                <td id="hin" class="value"></td>
+            </tr>
+            <tr>
+                <th>Maths Marks out of 100 </th>
+                <td id="mat" class="value"></td>
+            </tr>
+            <tr>
+                <th>Science Marks out of 100 </th>
+                <td id="sci" class="value"></td>
+            </tr>
+            <tr>
+                <th>Social studies Marks out of 100 </th>
+                <td id="sst" class="value"></td>
+            </tr>
+            <tr>
+                <th>Total: </th>
+                <td id="tot" class="value"></td>
+            </tr>
+            <tr>
+                <th>percentage: </th>
+                <td id="per" class="value"></td>
+            </tr>
+        </table>
+
+
+    <script src="result.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	position: fixed;
+	background-color: navy;
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+}
+.logo{
+	position: relative;
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+	margin-right:  200px;
+
+}
+
+ul{
+	font-size: 18px;
+	color: wheat;
+	font-weight: bold;
+	position: relative;
+	margin-left: 185px ;
+	scroll-snap-type: mandatory;
+	margin-right: 20px
+	
+}
+ul {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+}
+
+ul li {
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: wheat;
+	font-size: 17px;
+}
+
+
+.main_img {
+	width: 100%;
+	height: 300px;
+	
+}
+
+.section1 {
+	padding-top: 70px;
+}
+.img_text{
+	position:absolute;
+	top: 30%;
+	left: 39.5%;
+	color: yellow;
+	transform: (50,50);
+	font-weight: bold;
+	z-index: 1;
+	
+}
+
+.welcome_img {
+	width: 100%;
+	height: 250px;
+}
+.col-md-8{
+
+	padding-left: 100px;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+
+
+}
+
+.container h2{
+	
+	font-size: 35px;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: initial;
+	font-weight: bolder;
+
+}
+
+.col-md-4{
+	padding-left: 100px;
+	font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.container {
+	padding-top: 70px;
+}
+
+
+
+.teacher {
+	width: 90%;
+	height: 200px;
+}
+.container h3{
+	
+	font-size: 35px;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: initial;
+	font-weight: bolder;
+
+}
+.label_text {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.social_media{
+	padding-top: 10px;
+	background-color: navy;
+	margin-bottom: 200px;
+	
+}
+
+.body_deg {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}

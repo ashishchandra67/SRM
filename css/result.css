@@ -1,0 +1,99 @@
+/* result.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: rgba(8, 8, 108, 0.8);
+    padding: 10px;
+    height: 100px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+h1 {
+    position: inline-block;
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 600px;
+}
+
+
+.students {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    row-gap: 400px;
+    column-gap: 50px;
+}
+
+.right select {
+    margin-top: 10px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.right select,
+.value {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.Subjects {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: wheat;
+    width: 30px;
+}
+
+.value {
+    border: 1px solid #ddd;
+    width: 50px;
+}
+
+.btn-print {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: left;
+    left: 0;
+    margin-left: 1000px;
+}
+
+.btn-print:hover {
+    background-color: #45a049;
+}
