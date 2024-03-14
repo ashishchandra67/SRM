@@ -42,10 +42,19 @@ ul li {
 	margin: 0 5px;
 }
 
-ul li a {
+a.content{
 	text-decoration: none;
 	color: wheat;
 	font-size: 17px;
+	
+}
+
+a.content:hover{
+	color: wheat;
+	text-decoration:  underline;
+	font-size: 20px;
+	cursor: pointer;
+	
 }
 
 
@@ -60,8 +69,8 @@ ul li a {
 }
 .img_text{
 	position:absolute;
-	top: 30%;
-	left: 39.5%;
+	top: 177px; 
+	left: 549px;
 	color: yellow;
 	transform: (50,50);
 	font-weight: bold;
