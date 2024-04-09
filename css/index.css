@@ -74,7 +74,7 @@ a.content:hover{
 	color: yellow;
 	transform: (50,50);
 	font-weight: bold;
-	z-index: 1;
+	z-index: 0;
 	
 }
 
